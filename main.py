@@ -13,4 +13,4 @@ if __name__ == '__main__':
     if os_.startswith("Windows"):
         app.run()
     else:
-        app.run(host="0.0.0.0", port=8041, processes=5)
+        app.run(host="0.0.0.0", port=8041, threaded=False, debug=True)

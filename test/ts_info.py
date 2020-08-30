@@ -15,7 +15,7 @@ class Test_api(unittest.TestCase):
 
     # 接口功能
     def test_get_detail(self):
-        r = requests.get(self.host_url + '/api/info/zhe')
+        r = requests.get(self.host_url + '/api/info/test')
         print(r.headers)
         print(r.json())
         pass
